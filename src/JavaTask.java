@@ -20,7 +20,6 @@ public class JavaTask {
             try {
                 arrayOfInt[i] = Integer.parseInt(in);
             } catch (Exception e) {
-
                 System.out.println("Вы не ввели целое число!");
                 System.exit(0);
             }
